@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+b99_soundboard/b99_soundboard/node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz

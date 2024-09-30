@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "howler": "^2.2.4",
+    "next": "14.2.13",
+    "qs": "^6.13.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "styled-jsx": "^5.1.6",
+    "use-debounce": "^10.0.3"
   },
   "devDependencies": {
     "eslint": "^8",

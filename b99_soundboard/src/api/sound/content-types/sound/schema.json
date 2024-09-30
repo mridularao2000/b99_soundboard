@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sounds",
+  "info": {
+    "singularName": "sound",
+    "pluralName": "sounds",
+    "displayName": "Sounds",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "audio": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "audioId": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "audioTitle": {
+      "type": "string"
+    }
+  }
+}
