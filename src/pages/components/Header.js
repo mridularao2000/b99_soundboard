@@ -6,16 +6,16 @@ import { useAudioContext } from "../../utils/SoundBoardContext";
 
 const Header = () => {
     const { searchAudio } = useAudioContext();
-    const [ query, setQuery ] = useState('')
+    const [query, setQuery] = useState('')
     // const [debouncedQuery] = useDebounce(query, 300);
     const handleChange = (event) => {
         // console.log(debouncedQuery);
         const { value } = event.target;
-        setQuery(value); 
-        if(value.length > 1){
+        setQuery(value);
+        if (value.length > 1) {
             searchAudio(value);
         } else {
-            if(value.length === 0) searchAudio(value);
+            if (value.length === 0) searchAudio(value);
         }
     }
     const reloadPage = () => {
@@ -23,7 +23,6 @@ const Header = () => {
     }
     const filterByChar = (event) => {
         let charName = event.target.getAttribute('src');
-        console.log("charName--->", charName);
         searchAudio(charName.split('/').pop().split('.')[0], true);
     }
     return (
