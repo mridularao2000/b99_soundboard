@@ -11,7 +11,6 @@ const useAudioHook = ({soundBoardData}) => {
     }, []);
 
     const searchAudio = (query, navBar = false) => {
-        console.log("here--->", query, navBar);
         if (query !== '') {
             const matchingAudio = allData.filter((data) => {
                 const { audioTitle, audioId } = data;
