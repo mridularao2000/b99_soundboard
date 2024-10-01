@@ -492,7 +492,7 @@
     "audioId": "terry-loves-love"
   },
   {
-    "audio": "/audio/soundboard/terry loves the hustle.ogg",
+    "audio": "/audio/soundboard/terry loved the hustle.ogg",
     "image": "/images/soundboard/terry loves the hustle.jpg",
     "audioTitle": "terry loves the hustle",
     "audioId": "terry-loves-the-hustle"
@@ -660,7 +660,7 @@
     "audioId": "amy-ya-just-plain-boring"
   },
   {
-    "audio": "/audio/soundboard/yippie kayak, other buckets.png",
+    "audio": "/audio/soundboard/yippie kayak, other buckets.ogg",
     "image": "/images/soundboard/yippie kayak, other buckets.png",
     "audioTitle": "yippie kayak, other buckets",
     "audioId": "charles-yippie-kayak-other-bucketspng"

@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-const { default: style } = require("./SoundTile.style")
+import style from './SoundTile.module.css'
 
 const SoundTile = ({ data }) => {
     const audioRef = useRef(null);
@@ -11,13 +11,12 @@ const SoundTile = ({ data }) => {
     };
 
     return (
-            <div className="grid-item soundboard-tile">
-                <button className='play-button' onClick={() => playAudio()}>
-                    <img className='image' src={data.image} />
-                    <p className='audio-title'>{data.audioTitle}</p>
+            <div className={`${style.gridItem} ${style.soundboardTile}`}>
+                <button className={style.playButton} onClick={() => playAudio()}>
+                    <img className={style.image} src={data.image} />
+                    <p className={style.audioTitle}>{data.audioTitle}</p>
                 </button>
                 <audio ref={audioRef} src={data.audio} />
-                <style jsx>{style}</style>
             </div>
     )
 }

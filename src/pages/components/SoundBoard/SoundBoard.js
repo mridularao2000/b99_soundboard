@@ -1,20 +1,19 @@
 import SoundTile from "../SoundTile";
-import style from "./SoundBoard.style";
+import style from './SoundBoard.module.css'
 
-const { useAudioContext } = require("../SoundBoardContext")
+const { useAudioContext } = require("../../../utils/SoundBoardContext")
 
 const SoundBoard = () => {
     const { filteredData } = useAudioContext();
     return (
-        <div className='grid-container'>
-            {filteredData.map(data => {
+        <div className={style.gridContainer}>
+            {filteredData.map((data, key) => {
                 return (
-                    <SoundTile data={data} />
+                    <SoundTile key={key} data={data} />
                 )
             })}
-            <style jsx>{style}</style>
         </div>
     )
 }
 
-export default SoundBoard
+export default SoundBoard;

@@ -1,7 +1,7 @@
 // import fs, {readFile} from 'fs'
 import path from 'path';
 import Header from "./components/Header";
-import { AudioContextProvider } from "./components/SoundBoardContext";
+import { AudioContextProvider } from "../utils/SoundBoardContext";
 import { readFile } from 'fs/promises';
 import SoundBoard from './components/SoundBoard/SoundBoard';
 

@@ -1,4 +1,3 @@
-console.log("here==>", process.env.URL);
 import "@/styles/globals.css";
 
 

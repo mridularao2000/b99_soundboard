@@ -1,8 +1,8 @@
 'use client'
 import { Fragment, useState } from "react";
 // import { useDebounce } from "use-debounce";
-import style from "./Header.style";
-import { useAudioContext } from "./SoundBoardContext";
+import style from './Header.module.css'
+import { useAudioContext } from "../../utils/SoundBoardContext";
 
 const Header = () => {
     const { searchAudio } = useAudioContext();
@@ -22,38 +22,35 @@ const Header = () => {
         location.reload();
     }
     const filterByChar = (event) => {
-        let charName = ''
-        if(event.target.matches('.cast-img')){
-            charName = event.target.getAttribute('src');
-        }
+        let charName = event.target.getAttribute('src');
+        console.log("charName--->", charName);
         searchAudio(charName.split('/').pop().split('.')[0], true);
     }
     return (
         <Fragment>
-            <div className="header">
-                <button className="header-btn" onClick={reloadPage}><img className="image" src='/images/header_pic.png' /></button>
+            <div className={style.header}>
+                <button className={style.headerBtn} onClick={reloadPage}><img className={style.image} src='/images/header_pic.png' /></button>
 
-                <div className="darksoul-search-bar" id="searchbar">
-                    <input id="searchbarinput" className="darksoul-search-bar-input" onChange={handleChange} type="text" value={query} name="search" placeholder="Search sound" />
-                    <img id="searchicon" width="22" height="22" src="/images/search.png" alt="search" />
+                <div className={style.darksoulSearchBar} id="searchbar">
+                    <input id="searchbarinput" className={style.darksoulSearchBarInput} onChange={handleChange} type="text" value={query} name="search" placeholder="Search sound" />
+                    <img id={style.searchicon} width="22" height="22" src="/images/search.png" alt="search" />
                 </div>
             </div>
-            <div className="cast-nav-container">
-                <div className="cast-navbar">
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/jake.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/amy.png" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/charles.jpeg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/terry.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/holt.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/gina.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/rosa.png" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/scully.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/hitchcock.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/dougjudy.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/cj.jpg" /></button>
+            <div className={style.castNavContainer}>
+                <div className={style.castNavbar}>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/jake.jpg" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/amy.png" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/charles.jpeg" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/terry.jpg" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/holt.jpg" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/gina.jpg" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/rosa.png" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/scully.jpg" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/hitchcock.jpg" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/dougjudy.jpg" /></button>
+                    <button className={style.castNavbarBtn} onClick={filterByChar}><img className={style.castImg} src="/images/navbar/cj.jpg" /></button>
                 </div>
             </div>
-            <style jsx>{style}</style>
         </Fragment>
     )
 }

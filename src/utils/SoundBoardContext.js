@@ -11,8 +11,7 @@ const useAudioHook = ({soundBoardData}) => {
     }, []);
 
     const searchAudio = (query, navBar = false) => {
-        console.log(allData);
-        console.log(query, navBar);
+        console.log("here--->", query, navBar);
         if (query !== '') {
             const matchingAudio = allData.filter((data) => {
                 const { audioTitle, audioId } = data;
@@ -21,7 +20,6 @@ const useAudioHook = ({soundBoardData}) => {
                 }
                 return audioTitle.toLowerCase().includes(query.toLowerCase());
             });
-            console.log(matchingAudio);
             if (matchingAudio.length === 0) {
                 setNoAudioFound(true);
             } else setFilteredData(matchingAudio);
