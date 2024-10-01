@@ -15,12 +15,6 @@ const style = css`
         border-radius: 10px;
         border: 5px solid #FFD700
     }
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(153px, 1fr));
-        gap: 35px;
-        padding: 16px 50px;
-    }
     .grid-item {
         border: none;
         background: transparent;

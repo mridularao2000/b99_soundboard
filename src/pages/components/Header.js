@@ -40,17 +40,17 @@ const Header = () => {
             </div>
             <div className="cast-nav-container">
                 <div className="cast-navbar">
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/jake.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/amy.png" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/charles.jpeg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/terry.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/holt.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/gina.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/rosa.png" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/scully.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/hitchcock.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/dougjudy.jpg" /></button>
-                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/cj.jpg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/jake.jpg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/amy.png" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/charles.jpeg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/terry.jpg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/holt.jpg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/gina.jpg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/rosa.png" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/scully.jpg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/hitchcock.jpg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/dougjudy.jpg" /></button>
+                    <button className="cast-navbar-btn" onClick={filterByChar}><img className="cast-img" src="/images/navbar/cj.jpg" /></button>
                 </div>
             </div>
             <style jsx>{style}</style>
