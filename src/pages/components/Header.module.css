@@ -1,7 +1,11 @@
 .header {
-    width: 100%;
     display: flex;
-    margin: 30px 50px 10px 50px;
+    flex-direction: column;
+    @media (min-width: 1025px) {
+        width: 100%;
+        flex-direction: row;
+        margin: 30px 50px 10px 50px;
+      }
 }
 
 .headerBtn {
@@ -17,18 +21,25 @@
 
 .darksoulSearchBar {
     position: relative;
-    margin-left: 30px;
-    margin-top: 20px;
+    align-self: center;
+    margin-bottom: 15px;
+    @media (max-width: 850px) {
+        width: 90%;
+    }
+    @media (min-width: 850px) {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
 }
 
 #searchicon {
     position: absolute;
-    top: 12%;
-    left: 3%
+    left: 3%;
+    top: 30%;
 }
 
 .darksoulSearchBar .darksoulSearchBarInput {
-    width: 700px;
+    width: 100%;
     height: 50px;
     border-radius: 23px;
     outline: none;
@@ -38,6 +49,9 @@
     background-color: #27292a;
     color: #ffffff;
     font-weight: 500;
+    @media (min-width: 800px) {
+        width: 700px;
+    }
 }
 
 .darksoulSearchBar .darksoulSearchBarInput::placeholder {
@@ -53,6 +67,9 @@
     width: 100%;
     display: grid;
     justify-content: center;
+    @media (max-width: 900px) {
+        display: none;
+    }
 }
 
 .castImg {
