@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import style from './SoundTile.module.css'
 
-const SoundTile = ({ data }) => {
+const SoundTile = ({ data = {} }) => {
     const audioRef = useRef(null);
 
     const playAudio = () => {
