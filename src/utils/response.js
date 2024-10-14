@@ -349,7 +349,7 @@
   },
   {
     "audio": "/audio/soundboard/Please have my children.mp3",
-    "image": "/images/soundboard/please have my children - doug judy.jpg",
+    "image": "/images/soundboard/please have my children.jpg",
     "audioTitle": "please have my children - doug judy",
     "audioId": "please-have-my-children-doug-judy"
   },
