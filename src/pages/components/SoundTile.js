@@ -16,14 +16,13 @@ const SoundTile = ({ data = {} }) => {
             });
         }
     }
+    const audioSrc = `/api/audio?file=${encodeURIComponent(data.audio)}`
     return (
         <div className={`${style.gridItem} ${style.soundboardTile}`}>
             <button className={style.playButton} onClick={() => playAudio()}>
                 <img className={style.image} src={data.image} />
                 <p className={style.audioTitle}>{data.audioTitle}</p>
-                <audio controls>
-                    <source src={data.audio} type="audio/mpeg" />
-                </audio>
+                <audio ref={audioRef} src={audioSrc} />
             </button>
         </div>
     )
