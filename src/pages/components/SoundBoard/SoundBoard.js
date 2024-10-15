@@ -5,7 +5,6 @@ const { useAudioContext } = require("../../../utils/SoundBoardContext")
 
 const SoundBoard = () => {
     const { filteredData = [] } = useAudioContext();
-    if(!filteredData.length) return null;
     return (
         <div className={style.gridContainer}>
             {filteredData.map((data, key) => {
@@ -18,3 +17,4 @@ const SoundBoard = () => {
 }
 
 export default SoundBoard;
+

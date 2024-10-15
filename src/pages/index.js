@@ -4,19 +4,10 @@ import Header from "./components/Header";
 import { AudioContextProvider } from "../utils/SoundBoardContext";
 import { readFile } from 'fs/promises';
 import SoundBoard from './components/SoundBoard/SoundBoard';
-import { useRef } from 'react';
 
 //NOTE: opentelemetry/api should be installed before running!
 
 export default function Home({ soundBoardData }) {
-  const audioRef = useRef(null);
-  // const playAudio = () => {
-  //   if (audioRef.current) {
-  //     audioRef.current.play().catch(error => {
-  //       console.error("Audio playback failed:", error);
-  //     });
-  //   }
-  // }
   return (
     <div className="body">
       <AudioContextProvider soundBoardData={soundBoardData}>

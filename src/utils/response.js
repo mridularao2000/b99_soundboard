@@ -264,9 +264,9 @@
     "audioId": "terry-likes-foreign-films"
   },
   {
-    "audio": "/audio/soundboard/Sarcastic laugh.mp3",
+    "audio": "/audio/soundboard/Sarcastic Laugh.mp3",
     "image": "/images/soundboard/sarcastic laugh - rosa.jpg",
-    "audioTitle": "sarcastic laugh - rosa",
+    "audioTitle": "sarcastic laugh",
     "audioId": "sarcastic-laugh-rosa"
   },
   {
@@ -348,9 +348,9 @@
     "audioId": "holt-pain"
   },
   {
-    "audio": "/audio/soundboard/Please have my children.mp3",
+    "audio": "/audio/soundboard/Please Have My Children.mp3",
     "image": "/images/soundboard/please have my children.jpg",
-    "audioTitle": "please have my children - doug judy",
+    "audioTitle": "please have my children",
     "audioId": "please-have-my-children-doug-judy"
   },
   {
@@ -376,5 +376,323 @@
     "image": "/images/soundboard/Never been happier.jpg",
     "audioTitle": "Never been happier",
     "audioId": "holt-Never-been-happier"
+  },
+  {
+    "audio": "/audio/soundboard/needed to be alphaed.mp3",
+    "image": "/images/soundboard/needed to be alphaed.jpg",
+    "audioTitle": "needed to be alphaed",
+    "audioId": "gina-needed-to-be-alphaed"
+  },
+  {
+    "audio": "/audio/soundboard/look at all this swag i got.mp3",
+    "image": "/images/soundboard/look at all this swag i got.jpg",
+    "audioTitle": "look at all this swag i got",
+    "audioId": "terry-look-at-all-this-swag-i-got"
+  },
+  {
+    "audio": "/audio/soundboard/me so corny.mp3",
+    "image": "/images/soundboard/me so corny.jpg",
+    "audioTitle": "me so corny",
+    "audioId": "jake-me-so-corny"
+  },
+  {
+    "audio": "/audio/soundboard/meep morp.mp3",
+    "image": "/images/soundboard/meep morp.jpg",
+    "audioTitle": "meep morp",
+    "audioId": "jake-meep-morp"
+  },
+  {
+    "audio": "/audio/soundboard/my biggest problem today.mp3",
+    "image": "/images/soundboard/my biggest problem today.jpg",
+    "audioTitle": "my biggest problem today",
+    "audioId": "holt-my-biggest-problem-today"
+  },
+  {
+    "audio": "/audio/soundboard/it's so small.mp3",
+    "image": "/images/soundboard/it's so small.jpg",
+    "audioTitle": "it's so small",
+    "audioId": "terry-its-so-small"
+  },
+  {
+    "audio": "/audio/soundboard/it's time to make daddy proud.mp3",
+    "image": "/images/soundboard/it's time to make daddy proud.jpg",
+    "audioTitle": "it's time to make daddy proud",
+    "audioId": "holt-its-time-to-make-daddy-proud"
+  },
+  {
+    "audio": "/audio/soundboard/less talky talk.mp3",
+    "image": "/images/soundboard/less talky talk.jpg",
+    "audioTitle": "less talky talk",
+    "audioId": "gina-less-talky-talk"
+  },
+  {
+    "audio": "/audio/soundboard/let's roll up on these muchachos.mp3",
+    "image": "/images/soundboard/let's roll up on these muchachos.jpg",
+    "audioTitle": "let's roll up on these muchachos",
+    "audioId": "cj-lets-roll-up-on-these-muchachos"
+  },
+  {
+    "audio": "/audio/soundboard/Like yeast.mp3",
+    "image": "/images/soundboard/Like yeast.jpg",
+    "audioTitle": "Like yeast",
+    "audioId": "charles-Like-yeast"
+  },
+  {
+    "audio": "/audio/soundboard/i'm paris of people.mp3",
+    "image": "/images/soundboard/i'm paris of people.jpg",
+    "audioTitle": "i'm paris of people",
+    "audioId": "gina-im-paris-of-people"
+  },
+  {
+    "audio": "/audio/soundboard/i'm ready to learn.mp3",
+    "image": "/images/soundboard/i'm ready to learn.jpg",
+    "audioTitle": "i'm ready to learn",
+    "audioId": "gina-im-ready-to-learn"
+  },
+  {
+    "audio": "/audio/soundboard/i'm sick all over.mp3",
+    "image": "/images/soundboard/i'm sick all over.jpg",
+    "audioTitle": "i'm sick all over",
+    "audioId": "scully-im-sick-all-over"
+  },
+  {
+    "audio": "/audio/soundboard/if you see something, say something.mp3",
+    "image": "/images/soundboard/if you see something, say something.jpg",
+    "audioTitle": "if you see something, say something",
+    "audioId": "cj-if-you-see-something-say-something"
+  },
+  {
+    "audio": "/audio/soundboard/i know you could've.mp3",
+    "image": "/images/soundboard/i know you could've.jpg",
+    "audioTitle": "i know you could've",
+    "audioId": "rosa-i-know-you-couldve"
+  },
+  {
+    "audio": "/audio/soundboard/i want my money.mp3",
+    "image": "/images/soundboard/i want my money.jpg",
+    "audioTitle": "i want my money",
+    "audioId": "terry-i-want-my-money"
+  },
+  {
+    "audio": "/audio/soundboard/i'm exquisite.mp3",
+    "image": "/images/soundboard/i'm exquisite.jpg",
+    "audioTitle": "i'm exquisite",
+    "audioId": "gina-im-exquisite"
+  },
+  {
+    "audio": "/audio/soundboard/i'm only a man.mp3",
+    "image": "/images/soundboard/i'm only a man.jpg",
+    "audioTitle": "i'm only a man",
+    "audioId": "terry-im-only-a-man"
+  },
+  {
+    "audio": "/audio/soundboard/i have a dark past.mp3",
+    "image": "/images/soundboard/i have a dark past.jpg",
+    "audioTitle": "i have a dark past",
+    "audioId": "rosa-i-have-a-dark-past"
+  },
+  {
+    "audio": "/audio/soundboard/i haven't even begun to pressure you.mp3",
+    "image": "/images/soundboard/i haven't even begun to pressure you.jpg",
+    "audioTitle": "i haven't even begun to pressure you",
+    "audioId": "charles-i-havent-even-begun-to-pressure-you"
+  },
+  {
+    "audio": "/audio/soundboard/how dare you.mp3",
+    "image": "/images/soundboard/how dare you.jpg",
+    "audioTitle": "how dare you",
+    "audioId": "holt-how-dare-you"
+  },
+  {
+    "audio": "/audio/soundboard/human form 100 emoji.mp3",
+    "image": "/images/soundboard/human form 100 emoji.jpg",
+    "audioTitle": "human form 100 emoji",
+    "audioId": "gina-human-form-100-emoji"
+  },
+  {
+    "audio": "/audio/soundboard/i birthed her.mp3",
+    "image": "/images/soundboard/i birthed her.jpg",
+    "audioTitle": "i birthed her",
+    "audioId": "holt-i-birthed-her"
+  },
+  {
+    "audio": "/audio/soundboard/i hate you.mp3",
+    "image": "/images/soundboard/i hate you.jpg",
+    "audioTitle": "i hate you",
+    "audioId": "gina-i-hate-you"
+  },
+  {
+    "audio": "/audio/soundboard/he's dead.mp3",
+    "image": "/images/soundboard/he's dead.jpg",
+    "audioTitle": "he's dead",
+    "audioId": "hitchcock-hes-dead"
+  },
+  {
+    "audio": "/audio/soundboard/high on it.mp3",
+    "image": "/images/soundboard/high on it.jpg",
+    "audioTitle": "high on it",
+    "audioId": "charles-high-on-it"
+  },
+  {
+    "audio": "/audio/soundboard/hot damn.mp3",
+    "image": "/images/soundboard/hot damn.jpg",
+    "audioTitle": "hot damn",
+    "audioId": "holt-hot-damn"
+  },
+  {
+    "audio": "/audio/soundboard/how can you ask me that.mp3",
+    "image": "/images/soundboard/how can you ask me that.jpg",
+    "audioTitle": "how can you ask me that",
+    "audioId": "scully-how-can-you-ask-me-that"
+  },
+  {
+    "audio": "/audio/soundboard/get back to work.mp3",
+    "image": "/images/soundboard/get back to work.jpg",
+    "audioTitle": "get back to work",
+    "audioId": "holt-get-back-to-work"
+  },
+  {
+    "audio": "/audio/soundboard/gobble gobble.mp3",
+    "image": "/images/soundboard/gobble gobble.jpg",
+    "audioTitle": "gobble gobble",
+    "audioId": "charles-gobble-gobble"
+  },
+  {
+    "audio": "/audio/soundboard/Dry Boy.mp3",
+    "image": "/images/soundboard/dry boy.jpg",
+    "audioTitle": "dry boy",
+    "audioId": "charles-dry-boy"
+  },
+  {
+    "audio": "/audio/soundboard/first fight.mp3",
+    "image": "/images/soundboard/first fight.jpg",
+    "audioTitle": "first fight",
+    "audioId": "gina-first-fight"
+  },
+  {
+    "audio": "/audio/soundboard/from the sheets to the streets.mp3",
+    "image": "/images/soundboard/from the sheets to the streets.jpg",
+    "audioTitle": "from the sheets to the streets",
+    "audioId": "jake-from-the-sheets-to-the-streets"
+  },
+  {
+    "audio": "/audio/soundboard/funniest story.mp3",
+    "image": "/images/soundboard/funniest story.jpg",
+    "audioTitle": "funniest story",
+    "audioId": "holt-funniest-story"
+  },
+  {
+    "audio": "/audio/soundboard/damn these are good.mp3",
+    "image": "/images/soundboard/damn these are good.jpg",
+    "audioTitle": "damn these are good",
+    "audioId": "terry-damn-these-are-good"
+  },
+  {
+    "audio": "/audio/soundboard/don't nobody ask me.mp3",
+    "image": "/images/soundboard/don't nobody ask me.jpg",
+    "audioTitle": "don't nobody ask me",
+    "audioId": "jake-dont-nobody-ask-me"
+  },
+  {
+    "audio": "/audio/soundboard/don't walk away from me.mp3",
+    "image": "/images/soundboard/don't walk away from me.jpg",
+    "audioTitle": "don't walk away from me",
+    "audioId": "jake-dont-walk-away-from-me"
+  },
+  {
+    "audio": "/audio/soundboard/donezel washington.mp3",
+    "image": "/images/soundboard/donezel washington.jpg",
+    "audioTitle": "donezel washington",
+    "audioId": "jake-donezel-washington"
+  },
+  {
+    "audio": "/audio/soundboard/da bomb.mp3",
+    "image": "/images/soundboard/da bomb.jpg",
+    "audioTitle": "da bomb",
+    "audioId": "amy-da-bomb"
+  },
+  {
+    "audio": "/audio/soundboard/damn rosa.mp3",
+    "image": "/images/soundboard/damn rosa.jpg",
+    "audioTitle": "damn rosa",
+    "audioId": "terry-damn-rosa"
+  },
+  {
+    "audio": "/audio/soundboard/boost my bottom.mp3",
+    "image": "/images/soundboard/boost my bottom.jpg",
+    "audioTitle": "boost my bottom",
+    "audioId": "holt-boost-my-bottom"
+  },
+  {
+    "audio": "/audio/soundboard/c'mon & party tonight.mp3",
+    "image": "/images/soundboard/c'mon & party tonight.jpg",
+    "audioTitle": "c'mon & party tonight",
+    "audioId": "cj-cmon-party-tonight"
+  },
+  {
+    "audio": "/audio/soundboard/cool cool.mp3",
+    "image": "/images/soundboard/cool cool - jake.jpg",
+    "audioTitle": "cool cool",
+    "audioId": "cool-cool-jake"
+  },
+  {
+    "audio": "/audio/soundboard/d-d-d-derek.mp3",
+    "image": "/images/soundboard/d-d-d-derek.jpg",
+    "audioTitle": "d-d-d-derek",
+    "audioId": "holt-d-d-d-derek"
+  },
+  {
+    "audio": "/audio/soundboard/being a dum dum.mp3",
+    "image": "/images/soundboard/being a dum dum.jpg",
+    "audioTitle": "being a dum dum",
+    "audioId": "scully-being-a-dum-dum"
+  },
+  {
+    "audio": "/audio/soundboard/boi-oi-oi-oing.mp3",
+    "image": "/images/soundboard/boi-oi-oi-oing.jpg",
+    "audioTitle": "boi-oi-oi-oing",
+    "audioId": "amy-boi-oi-oi-oing"
+  },
+  {
+    "audio": "/audio/soundboard/bone.mp3",
+    "image": "/images/soundboard/bone.jpg",
+    "audioTitle": "bone",
+    "audioId": "holt-bone"
+  },
+  {
+    "audio": "/audio/soundboard/boom.mp3",
+    "image": "/images/soundboard/boom.jpg",
+    "audioTitle": "boom",
+    "audioId": "charles-boom"
+  },
+  {
+    "audio": "/audio/soundboard/ay caramba.mp3",
+    "image": "/images/soundboard/ay caramba.jpg",
+    "audioTitle": "ay caramba",
+    "audioId": "jake-ay-caramba"
+  },
+  {
+    "audio": "/audio/soundboard/bad attitude.mp3",
+    "image": "/images/soundboard/bad attitude.jpg",
+    "audioTitle": "bad attitude",
+    "audioId": "terry-bad-attitude"
+  },
+  {
+    "audio": "/audio/soundboard/assistant manager of hell.mp3",
+    "image": "/images/soundboard/assistant manager of hell.jpg",
+    "audioTitle": "assistant manager of hell",
+    "audioId": "gina-assistant-manager-of-hell"
+  },
+  {
+    "audio": "/audio/soundboard/30 attracted to me.mp3",
+    "image": "/images/soundboard/30 attracted to me.jpg",
+    "audioTitle": "30% attracted to me",
+    "audioId": "gina-30-attracted-to-me"
+  },
+  {
+    "audio": "/audio/soundboard/Annoy Him Into Talking.mp3",
+    "image": "/images/soundboard/Annoy Him Into Talking.jpg",
+    "audioTitle": "Annoy Him Into Talking",
+    "audioId": "jake-Annoy-Him-Into-Talking"
   }
 ]
