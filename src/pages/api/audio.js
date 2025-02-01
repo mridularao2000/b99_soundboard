@@ -15,29 +15,35 @@ export default function handler(req, res) {
 
     // Handle range requests
     const range = req.headers.range;
-    if (!range) {
-        res.writeHead(200, {
+    // if (!range) {
+        res.writeHead(206, {
             'Content-Length': fileSize,
             'Content-Type': 'audio/mpeg',
+            'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+            'Pragma': 'no-cache',
+            'Expires': '0'
         });
         const stream = fs.createReadStream(audioPath);
         stream.pipe(res);
         return;
-    }
+    // }
 
     // Parse the range header
-    const start = Number(range.replace(/\D/g, ''));
-    const end = fileSize - 1;
+    // const start = Number(range.replace(/\D/g, ''));
+    // const end = fileSize - 1;
 
-    // // Set headers for the response
-    res.writeHead(206, {
-        'Content-Range': `bytes ${start}-${end}/${fileSize}`,
-        'Accept-Ranges': 'bytes',
-        'Content-Length': end - start + 1,
-        'Content-Type': 'audio/mpeg',
-    });
+    // // // Set headers for the response
+    // res.writeHead(206, {
+    //     'Content-Range': `bytes ${start}-${end}/${fileSize}`,
+    //     'Accept-Ranges': 'bytes',
+    //     'Content-Length': end - start + 1,
+    //     'Content-Type': 'audio/mpeg',
+    //     // 'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+    //     // 'Pragma': 'no-cache',
+    //     // 'Expires': '0'
+    // });
 
-    // Create a read stream and pipe it to the response
-    const stream = fs.createReadStream(audioPath, { start, end });
-    stream.pipe(res);
+    // // Create a read stream and pipe it to the response
+    // // const stream = fs.createReadStream(audioPath, { start, end });
+    // // stream.pipe(res);
 }

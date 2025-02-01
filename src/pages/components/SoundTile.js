@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import style from './SoundTile.module.css'
 
 const SoundTile = ({ data = {} }) => {
@@ -10,19 +10,20 @@ const SoundTile = ({ data = {} }) => {
     if (!isMounted) return null;
 
     const playAudio = () => {
+        console.log("=====>", audioRef.current)
         if (audioRef.current) {
             audioRef.current.play().catch(error => {
                 console.error("Audio playback failed:", error);
             });
         }
     }
-    // const audioSrc = `/api/audio?file=${encodeURIComponent(data.audio)}`
+    const audioSrc = `/api/audio?file=${encodeURIComponent(data.audio)}&t=${new Date().getTime()}`
     return (
         <div className={`${style.gridItem} ${style.soundboardTile}`}>
-            <button className={style.playButton} onClick={() => playAudio()}>
+            <button className={style.playButton} onClick={playAudio}>
                 <img className={style.image} src={data.image} />
                 <p className={style.audioTitle}>{data.audioTitle}</p>
-                <audio ref={audioRef} src={data.audio} />
+                <audio ref={audioRef} src={audioSrc} muted={false}/>
             </button>
         </div>
     )
